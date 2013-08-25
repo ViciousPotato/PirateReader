@@ -1,0 +1,380 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CBA1F0C617C99FCF00FA7BF2 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBA1F0C517C99FCF00FA7BF2 /* Cocoa.framework */; };
+		CBA1F0D117C99FCF00FA7BF2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CBA1F0CF17C99FCF00FA7BF2 /* InfoPlist.strings */; };
+		CBA1F0D317C99FCF00FA7BF2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CBA1F0D217C99FCF00FA7BF2 /* main.m */; };
+		CBA1F0D717C99FD000FA7BF2 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = CBA1F0D517C99FD000FA7BF2 /* MainMenu.xib */; };
+		CBA1F0DA17C99FD000FA7BF2 /* rb_main.rb in Resources */ = {isa = PBXBuildFile; fileRef = CBA1F0D917C99FD000FA7BF2 /* rb_main.rb */; };
+		CBA1F0DC17C99FD000FA7BF2 /* Reader.rb in Resources */ = {isa = PBXBuildFile; fileRef = CBA1F0DB17C99FD000FA7BF2 /* Reader.rb */; };
+		CBA1F0DF17C99FD000FA7BF2 /* Reader.xib in Resources */ = {isa = PBXBuildFile; fileRef = CBA1F0DD17C99FD000FA7BF2 /* Reader.xib */; };
+		CBA1F0E917C9A0E000FA7BF2 /* MacRuby.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBA1F0E817C9A0E000FA7BF2 /* MacRuby.framework */; };
+		CBA1F0EB17C9A11400FA7BF2 /* MacRuby.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBA1F0EA17C9A11400FA7BF2 /* MacRuby.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CBA1F0CA17C99FCF00FA7BF2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CBA1F0BA17C99FCF00FA7BF2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CBA1F0C117C99FCF00FA7BF2;
+			remoteInfo = PirateReader;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CBA1F0C217C99FCF00FA7BF2 /* PirateReader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PirateReader.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CBA1F0C517C99FCF00FA7BF2 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		CBA1F0CE17C99FCF00FA7BF2 /* PirateReader-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PirateReader-Info.plist"; sourceTree = "<group>"; };
+		CBA1F0D017C99FCF00FA7BF2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CBA1F0D217C99FCF00FA7BF2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CBA1F0D417C99FCF00FA7BF2 /* PirateReader-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PirateReader-Prefix.pch"; sourceTree = "<group>"; };
+		CBA1F0D617C99FD000FA7BF2 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		CBA1F0D917C99FD000FA7BF2 /* rb_main.rb */ = {isa = PBXFileReference; lastKnownFileType = text.script.ruby; path = rb_main.rb; sourceTree = "<group>"; };
+		CBA1F0DB17C99FD000FA7BF2 /* Reader.rb */ = {isa = PBXFileReference; lastKnownFileType = text.script.ruby; path = Reader.rb; sourceTree = "<group>"; };
+		CBA1F0DE17C99FD000FA7BF2 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/Reader.xib; sourceTree = "<group>"; };
+		CBA1F0E817C9A0E000FA7BF2 /* MacRuby.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MacRuby.framework; path = ../../../../../Library/Frameworks/MacRuby.framework; sourceTree = "<group>"; };
+		CBA1F0EA17C9A11400FA7BF2 /* MacRuby.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MacRuby.framework; path = ../../../../../Library/Frameworks/MacRuby.framework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CBA1F0BF17C99FCF00FA7BF2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBA1F0E917C9A0E000FA7BF2 /* MacRuby.framework in Frameworks */,
+				CBA1F0C617C99FCF00FA7BF2 /* Cocoa.framework in Frameworks */,
+				CBA1F0EB17C9A11400FA7BF2 /* MacRuby.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CBA1F0B917C99FCF00FA7BF2 = {
+			isa = PBXGroup;
+			children = (
+				CBA1F0E817C9A0E000FA7BF2 /* MacRuby.framework */,
+				CBA1F0CC17C99FCF00FA7BF2 /* PirateReader */,
+				CBA1F0C417C99FCF00FA7BF2 /* Frameworks */,
+				CBA1F0C317C99FCF00FA7BF2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CBA1F0C317C99FCF00FA7BF2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CBA1F0C217C99FCF00FA7BF2 /* PirateReader.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CBA1F0C417C99FCF00FA7BF2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CBA1F0EA17C9A11400FA7BF2 /* MacRuby.framework */,
+				CBA1F0C517C99FCF00FA7BF2 /* Cocoa.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CBA1F0CC17C99FCF00FA7BF2 /* PirateReader */ = {
+			isa = PBXGroup;
+			children = (
+				CBA1F0D517C99FD000FA7BF2 /* MainMenu.xib */,
+				CBA1F0DB17C99FD000FA7BF2 /* Reader.rb */,
+				CBA1F0DD17C99FD000FA7BF2 /* Reader.xib */,
+				CBA1F0D817C99FD000FA7BF2 /* Other Sources */,
+				CBA1F0CD17C99FCF00FA7BF2 /* Supporting Files */,
+			);
+			path = PirateReader;
+			sourceTree = "<group>";
+		};
+		CBA1F0CD17C99FCF00FA7BF2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CBA1F0CE17C99FCF00FA7BF2 /* PirateReader-Info.plist */,
+				CBA1F0CF17C99FCF00FA7BF2 /* InfoPlist.strings */,
+				CBA1F0D217C99FCF00FA7BF2 /* main.m */,
+				CBA1F0D417C99FCF00FA7BF2 /* PirateReader-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CBA1F0D817C99FD000FA7BF2 /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				CBA1F0D917C99FD000FA7BF2 /* rb_main.rb */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXLegacyTarget section */
+		CBA1F0C917C99FCF00FA7BF2 /* Deployment */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "--compile --embed";
+			buildConfigurationList = CBA1F0E517C99FD000FA7BF2 /* Build configuration list for PBXLegacyTarget "Deployment" */;
+			buildPhases = (
+			);
+			buildToolPath = /usr/local/bin/macruby_deploy;
+			dependencies = (
+				CBA1F0CB17C99FCF00FA7BF2 /* PBXTargetDependency */,
+			);
+			name = Deployment;
+			passBuildSettingsInEnvironment = 1;
+			productName = Deployment;
+		};
+/* End PBXLegacyTarget section */
+
+/* Begin PBXNativeTarget section */
+		CBA1F0C117C99FCF00FA7BF2 /* PirateReader */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CBA1F0E217C99FD000FA7BF2 /* Build configuration list for PBXNativeTarget "PirateReader" */;
+			buildPhases = (
+				CBA1F0BE17C99FCF00FA7BF2 /* Sources */,
+				CBA1F0BF17C99FCF00FA7BF2 /* Frameworks */,
+				CBA1F0C017C99FCF00FA7BF2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PirateReader;
+			productName = PirateReader;
+			productReference = CBA1F0C217C99FCF00FA7BF2 /* PirateReader.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CBA1F0BA17C99FCF00FA7BF2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = zhou;
+			};
+			buildConfigurationList = CBA1F0BD17C99FCF00FA7BF2 /* Build configuration list for PBXProject "PirateReader" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CBA1F0B917C99FCF00FA7BF2;
+			productRefGroup = CBA1F0C317C99FCF00FA7BF2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CBA1F0C117C99FCF00FA7BF2 /* PirateReader */,
+				CBA1F0C917C99FCF00FA7BF2 /* Deployment */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CBA1F0C017C99FCF00FA7BF2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBA1F0D117C99FCF00FA7BF2 /* InfoPlist.strings in Resources */,
+				CBA1F0D717C99FD000FA7BF2 /* MainMenu.xib in Resources */,
+				CBA1F0DA17C99FD000FA7BF2 /* rb_main.rb in Resources */,
+				CBA1F0DC17C99FD000FA7BF2 /* Reader.rb in Resources */,
+				CBA1F0DF17C99FD000FA7BF2 /* Reader.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CBA1F0BE17C99FCF00FA7BF2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBA1F0D317C99FCF00FA7BF2 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CBA1F0CB17C99FCF00FA7BF2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CBA1F0C117C99FCF00FA7BF2 /* PirateReader */;
+			targetProxy = CBA1F0CA17C99FCF00FA7BF2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CBA1F0CF17C99FCF00FA7BF2 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CBA1F0D017C99FCF00FA7BF2 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		CBA1F0D517C99FD000FA7BF2 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CBA1F0D617C99FD000FA7BF2 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		CBA1F0DD17C99FD000FA7BF2 /* Reader.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CBA1F0DE17C99FD000FA7BF2 /* en */,
+			);
+			name = Reader.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CBA1F0E017C99FD000FA7BF2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		CBA1F0E117C99FD000FA7BF2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		CBA1F0E317C99FD000FA7BF2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = x86_64;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SYSTEM_APPS_DIR)/Xcode.app/Contents/Developer/Library/Frameworks\"",
+					/Library/Frameworks,
+				);
+				GCC_ENABLE_OBJC_GC = required;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PirateReader/PirateReader-Prefix.pch";
+				INFOPLIST_FILE = "PirateReader/PirateReader-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CBA1F0E417C99FD000FA7BF2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = x86_64;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SYSTEM_APPS_DIR)/Xcode.app/Contents/Developer/Library/Frameworks\"",
+					/Library/Frameworks,
+				);
+				GCC_ENABLE_OBJC_GC = required;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PirateReader/PirateReader-Prefix.pch";
+				INFOPLIST_FILE = "PirateReader/PirateReader-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		CBA1F0E617C99FD000FA7BF2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		CBA1F0E717C99FD000FA7BF2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CBA1F0BD17C99FCF00FA7BF2 /* Build configuration list for PBXProject "PirateReader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CBA1F0E017C99FD000FA7BF2 /* Debug */,
+				CBA1F0E117C99FD000FA7BF2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CBA1F0E217C99FD000FA7BF2 /* Build configuration list for PBXNativeTarget "PirateReader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CBA1F0E317C99FD000FA7BF2 /* Debug */,
+				CBA1F0E417C99FD000FA7BF2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CBA1F0E517C99FD000FA7BF2 /* Build configuration list for PBXLegacyTarget "Deployment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CBA1F0E617C99FD000FA7BF2 /* Debug */,
+				CBA1F0E717C99FD000FA7BF2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CBA1F0BA17C99FCF00FA7BF2 /* Project object */;
+}
